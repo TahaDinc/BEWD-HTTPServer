@@ -123,7 +123,7 @@ public class ConnectionHandler {
                 .replace("{{HTTP_STATUS}}", status);
 
 
-        header = header.replace("{{CONTENT_LENGTH}}", Integer.toString(90));
+        header = header.replace("{{CONTENT_LENGTH}}", Integer.toString(225));
 
         System.out.println("-> Responded with the following HTTP-headers:");
         System.out.println(header);
